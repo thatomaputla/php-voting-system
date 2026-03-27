@@ -41,18 +41,18 @@ It demonstrates core backend development concepts such as **authentication, sess
 
 /project-root
 │
-├── home.php              # Login & Registration page
-├── choices.php           # Car voting page
-├── results.php           # Leaderboard display
+├── home.php # Login & Registration page
+├── choices.php # Car voting page
+├── results.php # Leaderboard display
 │
 └── includes/
-    ├── configsession-inc.php     # Session configuration
-    ├── signup-inc.php            # Handles user registration
-    ├── login-inc.php             # Handles login logic
-    ├── signup_view-inc.php       # Signup error handling
-    ├── login_view-inc.php        # Login error handling
-    ├── choices-inc.php           # Processes votes
-    └── results-inc.php           # Fetches voting results
+├── configsession-inc.php # Session configuration
+├── signup-inc.php # Handles user registration
+├── login-inc.php # Handles login logic
+├── signup_view-inc.php # Signup error handling
+├── login_view-inc.php # Login error handling
+├── choices-inc.php # Processes votes
+└── results-inc.php # Fetches voting results
 
 ## Technologies Used
 1. PHP – Server-side scripting
